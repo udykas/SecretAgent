@@ -80,3 +80,33 @@ header{
 }
 
 /*Product images begin*/
+
+.product-line{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.product{
+  width: 30%;
+}
+
+.product-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+}
+
+.product-image img{
+  max-width: 8rem;
+}
+
+.product p{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+}
