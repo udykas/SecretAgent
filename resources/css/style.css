@@ -2,6 +2,8 @@ html{
   font-size: 18px;
 }
 
+/*header begins*/
+
 .header{
   display: flex;
   align-items: center;
@@ -19,6 +21,62 @@ html{
 header{
   color: white;
   display:inline-block;
-  font-family: helvetica, sans-serif, arial;
+  font-family: Helvetica, sans-serif;
   font-size: 1rem;
 }
+
+/*banner begins*/
+
+.banner{
+  display: flex;
+  height: 25rem;
+  width: 100%;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: blue;
+}
+
+.banner-text{
+  margin-top: 9rem;
+  background-color: black;
+  color: white;
+  width: 20rem;
+  height: 8.5rem;
+  margin-left: 170px;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.banner-text h4{
+  font-size: 1rem;
+}
+
+.banner-text h1{
+  font-size: 2rem;
+  padding-top: .25rem;
+}
+
+/*nav begins*/
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap:nowrap;
+  background-color: firebrick;
+  height: 2.5rem
+
+}
+
+.navbar li{
+  display: inline-block;
+  font-size: 1rem;
+  color: white;
+  padding: .75rem 2.6rem;
+}
+
+/*Product images begin*/
